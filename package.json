@@ -1,0 +1,17 @@
+{
+  "name": "2048",
+  "version": "1.0.0",
+  "description": "2048 game in angular",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-animate": "^1.6.1",
+    "angular-keyboard": "^0.3.3",
+    "bootstrap": "^3.3.7"
+  }
+}
