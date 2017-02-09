@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2048 Game</title>
+	<meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<body ng-app="TwoZeroFourthEigth">
+	<div ng-controller="GameCntrl as ctrl">
+		<div class="heading">
+			<h1>2048</h1>
+			<h4>The Game 2048 using AngularJs</h4>
+			<div class="scores">Scores: {{ctrl.games.score}}</div>
+		</div>
+	</div>
+	<div class="game" ng-controller="gridController">
+		<div grid-component ></div>
+	</div>
+
+<script src="node_modules/angular/angular.js"></script>
+<script src="node_modules/angular-keyboard/dist/keyboard.min.js"></script>
+<script src="app/main.js"></script>
+<script src="app/GameController/game-cntrl.js"></script>
+<script src="app/grid/grid-module.js"></script>
+<script src="app/grid/grid-component.js"></script>
+<script src="app/grid/tile-controller.js"></script>
+<script src="app/grid/factory.js"></script>
+<script src="app/Keyboard/keyboard-module.js"></script>
+</body>
+</html>
